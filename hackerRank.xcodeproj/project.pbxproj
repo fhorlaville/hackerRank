@@ -29,7 +29,6 @@
 /* Begin PBXFileReference section */
 		E527EAC01E730DA200930FAF /* hackerRank */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hackerRank; sourceTree = BUILT_PRODUCTS_DIR; };
 		E527EAC31E730DA300930FAF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		E527EADD1E76049900930FAF /* previous.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = previous.swift; path = hackerRank/previous.swift; sourceTree = "<group>"; };
 		E58EE0161E786F65004AB747 /* 30DaysOfCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 30DaysOfCode.swift; sourceTree = "<group>"; };
 		E58EE01A1E798BAF004AB747 /* WeekOfCode30.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeekOfCode30.swift; path = hackerRank/WeekOfCode30.swift; sourceTree = "<group>"; };
 		E5E2C4641E91C34600A09D43 /* poles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = poles.swift; path = hackerRank/poles.swift; sourceTree = "<group>"; };
@@ -53,6 +52,12 @@
 		E5E2C4821E91CEA300A09D43 /* timeConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = timeConversion.swift; path = hackerRank/timeConversion.swift; sourceTree = "<group>"; };
 		E5E2C4841E91CF1700A09D43 /* countInts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = countInts.swift; path = hackerRank/countInts.swift; sourceTree = "<group>"; };
 		E5E2C4851E91D33100A09D43 /* staircase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = staircase.swift; path = hackerRank/staircase.swift; sourceTree = "<group>"; };
+		E5E2C4871E91EC8D00A09D43 /* coinChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = coinChange.swift; path = hackerRank/coinChange.swift; sourceTree = "<group>"; };
+		E5E2C4881E91ECC200A09D43 /* absoluteDifferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = absoluteDifferences.swift; path = hackerRank/absoluteDifferences.swift; sourceTree = "<group>"; };
+		E5E2C4891E91ED0900A09D43 /* equals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = equals.swift; path = hackerRank/equals.swift; sourceTree = "<group>"; };
+		E5E2C48B1E91ED8300A09D43 /* euler1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = euler1.swift; path = euler/euler1.swift; sourceTree = "<group>"; };
+		E5E2C4901E91EF1A00A09D43 /* euler13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = euler13.swift; path = euler/euler13.swift; sourceTree = "<group>"; };
+		E5E2C4911E91EF3900A09D43 /* euler6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = euler6.swift; path = euler/euler6.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +74,7 @@
 		E527EAB71E730DA200930FAF = {
 			isa = PBXGroup;
 			children = (
+				E5E2C48A1E91ED2C00A09D43 /* Euler */,
 				E5E2C46E1E91C54A00A09D43 /* loader.swift */,
 				E5E2C4691E91C42900A09D43 /* previous */,
 				E527EAC21E730DA200930FAF /* hackerRank WIP */,
@@ -101,7 +107,8 @@
 				E5E2C4851E91D33100A09D43 /* staircase.swift */,
 				E5E2C4751E91C5D900A09D43 /* substringQueries.swift */,
 				E5E2C4671E91C41500A09D43 /* closestNumber.swift */,
-				E527EADD1E76049900930FAF /* previous.swift */,
+				E5E2C4891E91ED0900A09D43 /* equals.swift */,
+				E5E2C4881E91ECC200A09D43 /* absoluteDifferences.swift */,
 				E5E2C4841E91CF1700A09D43 /* countInts.swift */,
 				E5E2C4821E91CEA300A09D43 /* timeConversion.swift */,
 				E5E2C4811E91CE6F00A09D43 /* score.swift */,
@@ -119,8 +126,19 @@
 				E5E2C47D1E91CCE700A09D43 /* flatLandSpaceStations.swift */,
 				E5E2C47E1E91CD7400A09D43 /* coinIterator.swift */,
 				E5E2C47F1E91CDA200A09D43 /* minMax.swift */,
+				E5E2C4871E91EC8D00A09D43 /* coinChange.swift */,
 			);
 			name = previous;
+			sourceTree = "<group>";
+		};
+		E5E2C48A1E91ED2C00A09D43 /* Euler */ = {
+			isa = PBXGroup;
+			children = (
+				E5E2C48B1E91ED8300A09D43 /* euler1.swift */,
+				E5E2C4901E91EF1A00A09D43 /* euler13.swift */,
+				E5E2C4911E91EF3900A09D43 /* euler6.swift */,
+			);
+			name = Euler;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
