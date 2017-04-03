@@ -12,6 +12,7 @@
 		E5E2C4681E91C41500A09D43 /* closestNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E2C4671E91C41500A09D43 /* closestNumber.swift */; };
 		E5E2C4761E91C5D900A09D43 /* substringQueries.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E2C4751E91C5D900A09D43 /* substringQueries.swift */; };
 		E5E2C4861E91D33100A09D43 /* staircase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E2C4851E91D33100A09D43 /* staircase.swift */; };
+		E5E2C4931E91EFD300A09D43 /* spies.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E2C4921E91EFD300A09D43 /* spies.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -58,6 +59,7 @@
 		E5E2C48B1E91ED8300A09D43 /* euler1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = euler1.swift; path = euler/euler1.swift; sourceTree = "<group>"; };
 		E5E2C4901E91EF1A00A09D43 /* euler13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = euler13.swift; path = euler/euler13.swift; sourceTree = "<group>"; };
 		E5E2C4911E91EF3900A09D43 /* euler6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = euler6.swift; path = euler/euler6.swift; sourceTree = "<group>"; };
+		E5E2C4921E91EFD300A09D43 /* spies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = spies.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				E527EAC31E730DA300930FAF /* main.swift */,
 				E58EE0161E786F65004AB747 /* 30DaysOfCode.swift */,
 				E5E2C46A1E91C46D00A09D43 /* graph.swift */,
+				E5E2C4921E91EFD300A09D43 /* spies.swift */,
 			);
 			name = "hackerRank WIP";
 			path = hackerRank;
@@ -202,6 +205,7 @@
 			files = (
 				E5E2C4761E91C5D900A09D43 /* substringQueries.swift in Sources */,
 				E527EAC41E730DA300930FAF /* main.swift in Sources */,
+				E5E2C4931E91EFD300A09D43 /* spies.swift in Sources */,
 				E58EE0171E786F65004AB747 /* 30DaysOfCode.swift in Sources */,
 				E5E2C4861E91D33100A09D43 /* staircase.swift in Sources */,
 				E5E2C4681E91C41500A09D43 /* closestNumber.swift in Sources */,
