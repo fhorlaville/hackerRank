@@ -3,11 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		E527EAC41E730DA300930FAF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E527EAC31E730DA300930FAF /* main.swift */; };
+		E58EE0171E786F65004AB747 /* 30DaysOfCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58EE0161E786F65004AB747 /* 30DaysOfCode.swift */; };
+		E5E2C4681E91C41500A09D43 /* closestNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E2C4671E91C41500A09D43 /* closestNumber.swift */; };
+		E5E2C4761E91C5D900A09D43 /* substringQueries.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E2C4751E91C5D900A09D43 /* substringQueries.swift */; };
+		E5E2C4861E91D33100A09D43 /* staircase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E2C4851E91D33100A09D43 /* staircase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,30 @@
 /* Begin PBXFileReference section */
 		E527EAC01E730DA200930FAF /* hackerRank */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hackerRank; sourceTree = BUILT_PRODUCTS_DIR; };
 		E527EAC31E730DA300930FAF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		E527EADD1E76049900930FAF /* previous.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = previous.swift; path = hackerRank/previous.swift; sourceTree = "<group>"; };
+		E58EE0161E786F65004AB747 /* 30DaysOfCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 30DaysOfCode.swift; sourceTree = "<group>"; };
+		E58EE01A1E798BAF004AB747 /* WeekOfCode30.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeekOfCode30.swift; path = hackerRank/WeekOfCode30.swift; sourceTree = "<group>"; };
+		E5E2C4641E91C34600A09D43 /* poles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = poles.swift; path = hackerRank/poles.swift; sourceTree = "<group>"; };
+		E5E2C4661E91C3EC00A09D43 /* person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = person.swift; path = hackerRank/person.swift; sourceTree = "<group>"; };
+		E5E2C4671E91C41500A09D43 /* closestNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = closestNumber.swift; path = hackerRank/closestNumber.swift; sourceTree = "<group>"; };
+		E5E2C46A1E91C46D00A09D43 /* graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = graph.swift; sourceTree = "<group>"; };
+		E5E2C46D1E91C51C00A09D43 /* gameOfNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = gameOfNumbers.swift; path = hackerRank/gameOfNumbers.swift; sourceTree = "<group>"; };
+		E5E2C46E1E91C54A00A09D43 /* loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = loader.swift; path = hackerRank/loader.swift; sourceTree = "<group>"; };
+		E5E2C4751E91C5D900A09D43 /* substringQueries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = substringQueries.swift; path = hackerRank/substringQueries.swift; sourceTree = "<group>"; };
+		E5E2C4771E91C69300A09D43 /* lonely.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = lonely.swift; path = hackerRank/lonely.swift; sourceTree = "<group>"; };
+		E5E2C4781E91C6BE00A09D43 /* minAbs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = minAbs.swift; path = hackerRank/minAbs.swift; sourceTree = "<group>"; };
+		E5E2C4791E91C6ED00A09D43 /* candles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = candles.swift; path = hackerRank/candles.swift; sourceTree = "<group>"; };
+		E5E2C47A1E91C71700A09D43 /* prisoners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = prisoners.swift; path = hackerRank/prisoners.swift; sourceTree = "<group>"; };
+		E5E2C47B1E91CC5700A09D43 /* counter-game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "counter-game.swift"; path = "hackerRank/counter-game.swift"; sourceTree = "<group>"; };
+		E5E2C47C1E91CCB000A09D43 /* kFactorisation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = kFactorisation.swift; path = hackerRank/kFactorisation.swift; sourceTree = "<group>"; };
+		E5E2C47D1E91CCE700A09D43 /* flatLandSpaceStations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = flatLandSpaceStations.swift; path = hackerRank/flatLandSpaceStations.swift; sourceTree = "<group>"; };
+		E5E2C47E1E91CD7400A09D43 /* coinIterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = coinIterator.swift; path = hackerRank/coinIterator.swift; sourceTree = "<group>"; };
+		E5E2C47F1E91CDA200A09D43 /* minMax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = minMax.swift; path = hackerRank/minMax.swift; sourceTree = "<group>"; };
+		E5E2C4801E91CE2100A09D43 /* contains.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = contains.swift; path = hackerRank/contains.swift; sourceTree = "<group>"; };
+		E5E2C4811E91CE6F00A09D43 /* score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = score.swift; path = hackerRank/score.swift; sourceTree = "<group>"; };
+		E5E2C4821E91CEA300A09D43 /* timeConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = timeConversion.swift; path = hackerRank/timeConversion.swift; sourceTree = "<group>"; };
+		E5E2C4841E91CF1700A09D43 /* countInts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = countInts.swift; path = hackerRank/countInts.swift; sourceTree = "<group>"; };
+		E5E2C4851E91D33100A09D43 /* staircase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = staircase.swift; path = hackerRank/staircase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +69,9 @@
 		E527EAB71E730DA200930FAF = {
 			isa = PBXGroup;
 			children = (
-				E527EAC21E730DA200930FAF /* hackerRank */,
+				E5E2C46E1E91C54A00A09D43 /* loader.swift */,
+				E5E2C4691E91C42900A09D43 /* previous */,
+				E527EAC21E730DA200930FAF /* hackerRank WIP */,
 				E527EAC11E730DA200930FAF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +84,43 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E527EAC21E730DA200930FAF /* hackerRank */ = {
+		E527EAC21E730DA200930FAF /* hackerRank WIP */ = {
 			isa = PBXGroup;
 			children = (
 				E527EAC31E730DA300930FAF /* main.swift */,
+				E58EE0161E786F65004AB747 /* 30DaysOfCode.swift */,
+				E5E2C46A1E91C46D00A09D43 /* graph.swift */,
 			);
+			name = "hackerRank WIP";
 			path = hackerRank;
+			sourceTree = "<group>";
+		};
+		E5E2C4691E91C42900A09D43 /* previous */ = {
+			isa = PBXGroup;
+			children = (
+				E5E2C4851E91D33100A09D43 /* staircase.swift */,
+				E5E2C4751E91C5D900A09D43 /* substringQueries.swift */,
+				E5E2C4671E91C41500A09D43 /* closestNumber.swift */,
+				E527EADD1E76049900930FAF /* previous.swift */,
+				E5E2C4841E91CF1700A09D43 /* countInts.swift */,
+				E5E2C4821E91CEA300A09D43 /* timeConversion.swift */,
+				E5E2C4811E91CE6F00A09D43 /* score.swift */,
+				E5E2C4801E91CE2100A09D43 /* contains.swift */,
+				E5E2C4641E91C34600A09D43 /* poles.swift */,
+				E5E2C4661E91C3EC00A09D43 /* person.swift */,
+				E58EE01A1E798BAF004AB747 /* WeekOfCode30.swift */,
+				E5E2C46D1E91C51C00A09D43 /* gameOfNumbers.swift */,
+				E5E2C4771E91C69300A09D43 /* lonely.swift */,
+				E5E2C4781E91C6BE00A09D43 /* minAbs.swift */,
+				E5E2C4791E91C6ED00A09D43 /* candles.swift */,
+				E5E2C47A1E91C71700A09D43 /* prisoners.swift */,
+				E5E2C47B1E91CC5700A09D43 /* counter-game.swift */,
+				E5E2C47C1E91CCB000A09D43 /* kFactorisation.swift */,
+				E5E2C47D1E91CCE700A09D43 /* flatLandSpaceStations.swift */,
+				E5E2C47E1E91CD7400A09D43 /* coinIterator.swift */,
+				E5E2C47F1E91CDA200A09D43 /* minMax.swift */,
+			);
+			name = previous;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,7 +150,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "TAM Software";
 				TargetAttributes = {
 					E527EABF1E730DA200930FAF = {
@@ -100,7 +161,7 @@
 				};
 			};
 			buildConfigurationList = E527EABB1E730DA200930FAF /* Build configuration list for PBXProject "hackerRank" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -121,7 +182,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5E2C4761E91C5D900A09D43 /* substringQueries.swift in Sources */,
 				E527EAC41E730DA300930FAF /* main.swift in Sources */,
+				E58EE0171E786F65004AB747 /* 30DaysOfCode.swift in Sources */,
+				E5E2C4861E91D33100A09D43 /* staircase.swift in Sources */,
+				E5E2C4681E91C41500A09D43 /* closestNumber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +278,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
 		};
@@ -221,7 +287,7 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = 7VT34YH6H5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 3.1;
 			};
 			name = Debug;
 		};
@@ -230,7 +296,7 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = 7VT34YH6H5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 3.1;
 			};
 			name = Release;
 		};
@@ -253,6 +319,7 @@
 				E527EAC91E730DA300930FAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
